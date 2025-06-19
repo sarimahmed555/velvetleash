@@ -16,6 +16,7 @@ import SettingsScreen from '../screens/SettingsScreen/SettingScreen';
 import GeneralSettingsScreen from '../screens/GeneralSetting/GeneralSettingsScreen';
 import NotificationsScreen from '../screens/Notifications/NotificationsScreen';
 import ContactAmericaScreen from '../../ContactAmericaScreen';
+import PetDetailsScreen from '../screens/PetDetails/PetDetailsScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -39,6 +40,7 @@ const Stack = createNativeStackNavigator();
             <Stack.Screen name={'GeneralSettings'} component={GeneralSettingsScreen} />
             <Stack.Screen name={'Notification'} component={NotificationsScreen} />
             <Stack.Screen name={'ContactAmerica'} component={ContactAmericaScreen} />
+            <Stack.Screen name={'PetDetails'} component={PetDetailsScreen} />
 
         </Stack.Navigator>
     )

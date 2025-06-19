@@ -15,6 +15,8 @@ export type RootStackNavigationType = {
     Settings: undefined,
     GeneralSettings: undefined,
     Notification: undefined,
+    ContactAmerica: undefined,
+    PetDetails: undefined,
   };
   
   

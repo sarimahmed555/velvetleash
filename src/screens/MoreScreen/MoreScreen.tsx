@@ -25,6 +25,7 @@ const MoreScreen = () => {
     handleBecomeSitter,
     handleHelpCenter,
     handleContactSitter,
+    handlePetDetails,
     handleBackPress,
     handleNextPress,
   } = useMoreScreen();
@@ -123,6 +124,11 @@ const MoreScreen = () => {
               icon={require('../../../assets/icons/helpicon.png')}
               title="Help Center & Rover Support"
               onPress={handleHelpCenter}
+            />
+            <MenuButton
+              icon={require('../../../assets/icons/heartIcon.png')}
+              title="Pet Details"
+              onPress={handlePetDetails}
             />
           </View>
         </View>

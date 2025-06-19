@@ -33,6 +33,10 @@ export const useMoreScreen = () => {
     }, 2000);
   };
 
+  const handlePetDetails = () => {
+    navigation.navigate('PetDetails');
+  };
+
   const handleBackPress = () => {
     navigation.goBack()
   };
@@ -49,6 +53,7 @@ export const useMoreScreen = () => {
     handleBecomeSitter,
     handleHelpCenter,
     handleContactSitter,
+    handlePetDetails,
     handleBackPress,
     handleNextPress,
   };
