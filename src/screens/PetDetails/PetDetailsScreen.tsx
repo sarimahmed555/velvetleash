@@ -236,7 +236,7 @@ const PetDetailsScreen = () => {
           />
         </TouchableOpacity>
         <Text style={styles.headerTitle}>Pet Details</Text>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('PetDetails' as never)}>
           <Text style={styles.headerAction}>Add a Pet</Text>
         </TouchableOpacity>
       </View>

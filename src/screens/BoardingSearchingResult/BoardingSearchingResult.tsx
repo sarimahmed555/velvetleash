@@ -20,7 +20,7 @@ import { useBoardingSearching } from './hooks/useBoardingSearching';
 import { ProfileCard } from './components/ProfileCard';
 import { AuthStackNavigationType } from '../../utils/types/NavigationTypes';
 import { NavigationProp, useNavigation } from '@react-navigation/native';
-import ContactAmericaScreen from '../../ContactAmericaScreen';
+import ContactAmericaScreen from '../ContactAmerica';
 
 export const BoardingSearching: React.FC = () => {
   const { profiles, loading, refreshProfiles } = useBoardingSearching();
